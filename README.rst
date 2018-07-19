@@ -1,6 +1,9 @@
 ======
 GSTACK
 ======
+--------------------------------------------------------------------------------------------------------------
+NOTA BENE: This repository is not maintained. It depends on old libraries and will be retired to protect users
+--------------------------------------------------------------------------------------------------------------
 
 A Google Compute Engine Interface For Cloudstack
 ################################################
