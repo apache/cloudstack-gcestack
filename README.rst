@@ -10,7 +10,7 @@ A Google Compute Engine Interface For Cloudstack
 
 .. image:: https://badge.fury.io/py/gstack.png
        :target: https://pypi.python.org/pypi/gstack
-.. image:: https://api.travis-ci.org/apache/cloudstack-gcestack.png?branch=master
+.. image:: https://api.travis-ci.org/apache/cloudstack-gcestack.png?branch=main
        :target: https://travis-ci.org/apache/cloudstack-gcestack
 
 Description
