@@ -57,7 +57,7 @@ setup(
         'migrations'],
     include_package_data=True,
     install_requires=[
-        'requests==0.14',
+        'requests==2.20.0',
         'pycrypto==2.6',
         'pyopenssl',
         'Flask-SQLAlchemy',
