@@ -20,7 +20,7 @@ jobs:
       - run: pip install pylint
       - run: pip install pep8
       - run: pip install coveralls  
-      - run: pycodestyle --ignore=E501 *.py ec2stack
+      - run: pep8 --ignore=E501 *.py ec2stack
       - run: pylint --rcfile=pylint.rc *.py ec2stack
       - run: nosetests --with-coverage --cover-erase --cover-package=ec2stack --cover-html   
       - run: coveralls       
