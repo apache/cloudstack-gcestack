@@ -18,9 +18,9 @@ jobs:
           python-version: '3.8'         
     
       - run: pip install pylint
-      - run: pip install pep8
+      - run: pip install pycodestyle
       - run: pip install coveralls  
-      - run: pep8 --ignore=E501 *.py ec2stack
+      - run: pycodestyle --ignore=E501 *.py ec2stack
       - run: pylint --rcfile=pylint.rc *.py ec2stack
       - run: nosetests --with-coverage --cover-erase --cover-package=ec2stack --cover-html   
       - run: coveralls       
