@@ -1,4 +1,3 @@
-
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
 # distributed with this work for additional information
@@ -41,4 +40,4 @@ jobs:
       - run: pep8 --ignore=E501, E402 *.py gstack
       - run: pylint --rcfile=pylint.rc *.py ec2stack
       - run: nosetests --with-coverage --cover-erase --cover-package=ec2stack --cover-html   
-      - run: coveralls        
+      - run: coveralls
