@@ -19,10 +19,10 @@ jobs:
           
       - name: Install dependencies
         run: |
-          pip install pylint
-          pip install pep8
-          pip install coveralls
-          pip install -e . --use-mirrors
+          pip --use-mirrors install pylint
+          pip --use-mirrors install pep8
+          pip --use-mirrors install coveralls
+          pip --use-mirrors install -e . --use-mirrors
       - name: Script
         run: |
            pep8 --ignore=E501, E402 *.py gstack
