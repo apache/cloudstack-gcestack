@@ -15,10 +15,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.8'         
+          python-version: '2.7'         
     
       - run: pip install pylint
-      - run: pip install pycodestyle
+      - run: pip install pep8
       - run: pip install coveralls  
       - run: pycodestyle --ignore=E501 *.py ec2stack
       - run: pylint --rcfile=pylint.rc *.py ec2stack
